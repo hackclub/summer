@@ -137,7 +137,7 @@ export default () => (
       <Module
         icon="web"
         name="Marketing Assistance"
-        body="We'll promote your project through channels as well as supporting you with your own marketing."
+        body="We'll promote your project through our channels as well as supporting you with your own marketing."
       />
       <Module
         icon="shirt"
