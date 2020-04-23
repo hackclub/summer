@@ -23,3 +23,9 @@ Link: Coming Soon
 Start Date: 1st May 2020
 
 End Date: 31st May 2020
+
+### Contact
+
+Hey! Thanks for wanting to get in touch :)
+
+The best way is probably to message @sampoder on the Hack Club Slack
