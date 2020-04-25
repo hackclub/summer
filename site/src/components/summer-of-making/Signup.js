@@ -32,7 +32,7 @@ const InnerForm = ({ values, errors, touched, handleChange, handleBlur }) => (
   <Base
     method="get"
     target="_blank"
-    action={`https://airtable.com/shrzvck3Oz5Kkr33M`}
+    action={``}
   >
     <Field
       label="Full Name"
@@ -54,7 +54,7 @@ const InnerForm = ({ values, errors, touched, handleChange, handleBlur }) => (
       error={touched.last_name && errors.last_name}
       mb={[4, 5]}
     />
-    <Submit.lg bg="info" width={1} value="Continue your application" />
+    <Submit.lg bg="info" width={1} value="Applications Opening May 1st" />
   </Base>
 )
 const Signup = withFormik({

@@ -99,7 +99,7 @@ export default () => (
         </Lead>
       </Fade>
       <Flex justify="center" align="center">
-        <Button href="#apply">Apply now!</Button>
+        <Button href="#apply">Applications Opening May 1st</Button>
       </Flex>
       
     </Container>
