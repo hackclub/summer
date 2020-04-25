@@ -24,6 +24,12 @@ Start Date: 1st May 2020
 
 End Date: 31st May 2020
 
+### Want to help Mentor?
+
+Adults in the tech industry, we need your help to provide the future generation of makers with the support to kickstart their projects! 
+
+More details: https://airtable.com/shrm8k5H6qnKY0m5q
+
 ### Contact
 
 Hey! Thanks for wanting to get in touch :)
