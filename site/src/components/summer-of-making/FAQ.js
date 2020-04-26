@@ -49,7 +49,7 @@ const Module = ({ icon, name, body, ...props }) => (
 )
 
 const ModuleDetails = styled(Box).attrs({
-  bg: '#252429',
+  bg="dark",
   color: 'smoke',
   mt: 2,
   ml: 3,
@@ -70,7 +70,7 @@ const ModuleDetails = styled(Box).attrs({
 const ModuleDetailsDocument = styled(Flex.withComponent('li'))``
 
 export default () => (
-  <Base pt={[5, 6, 7]} pb={[4, 5, 6]} color="snow">
+  <Base pt={[5, 6, 7]} pb={[4, 5, 6]} bg="dark" color="snow">
     <Modules px={3}>
       <Box>
         <Headline>Frequently Asked Questions</Headline>
