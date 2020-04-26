@@ -8,7 +8,8 @@ import {
   Icon,
   Link as A,
   Text,
-  theme
+  theme,
+  Card
 } from '@hackclub/design-system'
 import { Headline, Lead } from 'components/Content'
 
