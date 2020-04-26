@@ -77,7 +77,7 @@ export default () => (
             Your Application
           </Subhline>
           <Form />
-          <LargeButton>Button</LargeButton>
+          <LargeButton width={1}>Volunteer as a Mentor</LargeButton>
         </Sheet>
       </Fade>
       <div>
