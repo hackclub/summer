@@ -119,10 +119,10 @@ export default () => (
     
     <Box p={2}>
       <Heading fontSize={2} bold>
-        {title}
+         Question
       </Heading>
       <Text fontSize={1} color="slate">
-        {text}
+        Answer
       </Text>
     </Box>
   </Card>
@@ -130,30 +130,30 @@ export default () => (
      
     <Box p={2}>
       <Heading fontSize={2} bold>
-        {title}
+         Question
       </Heading>
       <Text fontSize={1} color="slate">
-        {text}
+        Answer
       </Text>
     </Box>
   </Card><Card boxShadowSize="sm">
      
     <Box p={2}>
       <Heading fontSize={2} bold>
-        {title}
+         Question
       </Heading>
       <Text fontSize={1} color="slate">
-        {text}
+        Answer
       </Text>
     </Box>
   </Card><Card boxShadowSize="sm">
      
     <Box p={2}>
       <Heading fontSize={2} bold>
-        {title}
+         Question
       </Heading>
       <Text fontSize={1} color="slate">
-        {text}
+        Answer
       </Text>
     </Box>
   </Card>
