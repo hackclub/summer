@@ -116,7 +116,7 @@ export default () => (
   <Base pt={[5, 6, 7]} pb={[4, 5, 6]} color="snow">
     <Modules px={3}>
     <Card boxShadowSize="sm">
-    <Image src={image} width="512" height="256" />
+    
     <Box p={2}>
       <Heading fontSize={2} bold>
         {title}
@@ -127,7 +127,7 @@ export default () => (
     </Box>
   </Card>
   <Card boxShadowSize="sm">
-    <Image src={image} width="512" height="256" />
+     
     <Box p={2}>
       <Heading fontSize={2} bold>
         {title}
@@ -137,7 +137,7 @@ export default () => (
       </Text>
     </Box>
   </Card><Card boxShadowSize="sm">
-    <Image src={image} width="512" height="256" />
+     
     <Box p={2}>
       <Heading fontSize={2} bold>
         {title}
@@ -147,7 +147,7 @@ export default () => (
       </Text>
     </Box>
   </Card><Card boxShadowSize="sm">
-    <Image src={image} width="512" height="256" />
+     
     <Box p={2}>
       <Heading fontSize={2} bold>
         {title}
