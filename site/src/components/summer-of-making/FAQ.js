@@ -20,7 +20,7 @@ const Base = styled(Box.section).attrs({ bg: 'dark', color: 'gray.3' })``
 
 export default () => (
   <Base pt={[5, 6, 7]} pb={[4, 5, 6]} color="snow">
-    <Box p={3} width={[1 / 2, 1 / 3, 1 / 4]}>
+   <Flex wrap><Box p={3} width={[1 / 2, 1 / 3, 1 / 4]}>
       <Card boxShadowSize="sm">
     
     <Box p={2} >
@@ -86,7 +86,7 @@ export default () => (
     </Card>
     </Box>
 
-
+</Flex>
     <Lead maxWidth={28} color="slate" fontSize={3} align="center" mt={[4, 5]}>
       Have more questions?
       <br />
