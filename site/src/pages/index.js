@@ -8,6 +8,7 @@ import Run from 'components/summer-of-making/Run'
 import Features from 'components/summer-of-making/Features'
 import Timeline from 'components/summer-of-making/Timeline'
 import Start from 'components/summer-of-making/Start'
+import FAQ from 'components/summer-of-making/FAQ'
 
 const styles = `
   body {
@@ -33,6 +34,7 @@ export default () => (
     <Features />
     <Timeline />
     <Run />
+    <FAQ />
     <Start />
     <Footer dark />
   </Layout>
