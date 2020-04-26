@@ -157,7 +157,28 @@ export default () => (
       </Text>
     </Box>
   </Card>
-      
+  <Card boxShadowSize="sm">
+     
+    <Box p={2}>
+      <Heading fontSize={2} bold>
+         Question
+      </Heading>
+      <Text fontSize={1} color="slate">
+        Answer
+      </Text>
+    </Box>
+  </Card>
+  <Card boxShadowSize="sm">
+     
+    <Box p={2}>
+      <Heading fontSize={2} bold>
+         Question
+      </Heading>
+      <Text fontSize={1} color="slate">
+        Answer
+      </Text>
+    </Box>
+  </Card>
     </Modules>
 
     <Lead maxWidth={28} color="slate" fontSize={3} align="center" mt={[4, 5]}>
