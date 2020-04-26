@@ -77,6 +77,7 @@ export default () => (
             Your Application
           </Subhline>
           <Form />
+          <LargeButton>Button</LargeButton>
         </Sheet>
       </Fade>
       <div>
