@@ -19,7 +19,7 @@ const Base = styled(Box.withComponent('footer'))`
     props.dark
       ? `${theme.colors.darker} radial-gradient(${hexa(
           theme.colors.black,
-          0.1
+          1
         )} 1px, transparent 1px)`
       : `${theme.colors.snow} url('/pattern.svg') repeat`};
   ${props =>
