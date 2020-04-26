@@ -20,9 +20,10 @@ const Base = styled(Box.section).attrs({ bg: 'dark', color: 'gray.3' })``
 
 export default () => (
   <Base pt={[5, 6, 7]} pb={[4, 5, 6]} color="snow">
-    <Card boxShadowSize="sm">
+    <Box p={3} width={[1 / 2, 1 / 3, 1 / 4]}>
+      <Card boxShadowSize="sm">
     
-    <Box p={2}>
+    <Box p={2} >
       <Heading fontSize={2} bold>
          Question
       </Heading>
@@ -30,10 +31,12 @@ export default () => (
         Answer
       </Text>
     </Box>
-  </Card>
-  <Card boxShadowSize="sm">
-     
-    <Box p={2}>
+    </Card>
+    </Box>
+    <Box p={3} width={[1 / 2, 1 / 3, 1 / 4]}>
+      <Card boxShadowSize="sm">
+    
+    <Box p={2} >
       <Heading fontSize={2} bold>
          Question
       </Heading>
@@ -41,9 +44,12 @@ export default () => (
         Answer
       </Text>
     </Box>
-  </Card><Card boxShadowSize="sm">
-     
-    <Box p={2}>
+    </Card>
+    </Box>
+    <Box p={3} width={[1 / 2, 1 / 3, 1 / 4]}>
+      <Card boxShadowSize="sm">
+    
+    <Box p={2} >
       <Heading fontSize={2} bold>
          Question
       </Heading>
@@ -51,9 +57,12 @@ export default () => (
         Answer
       </Text>
     </Box>
-  </Card><Card boxShadowSize="sm">
-     
-    <Box p={2}>
+    </Card>
+    </Box>
+    <Box p={3} width={[1 / 2, 1 / 3, 1 / 4]}>
+      <Card boxShadowSize="sm">
+    
+    <Box p={2} >
       <Heading fontSize={2} bold>
          Question
       </Heading>
@@ -61,10 +70,12 @@ export default () => (
         Answer
       </Text>
     </Box>
-  </Card>
-  <Card boxShadowSize="sm">
-     
-    <Box p={2}>
+    </Card>
+    </Box>
+    <Box p={3} width={[1 / 2, 1 / 3, 1 / 4]}>
+      <Card boxShadowSize="sm">
+    
+    <Box p={2} >
       <Heading fontSize={2} bold>
          Question
       </Heading>
@@ -72,18 +83,9 @@ export default () => (
         Answer
       </Text>
     </Box>
-  </Card>
-  <Card boxShadowSize="sm">
-     
-    <Box p={2}>
-      <Heading fontSize={2} bold>
-         Question
-      </Heading>
-      <Text fontSize={1} color="slate">
-        Answer
-      </Text>
+    </Card>
     </Box>
-  </Card>
+
 
     <Lead maxWidth={28} color="slate" fontSize={3} align="center" mt={[4, 5]}>
       Have more questions?
