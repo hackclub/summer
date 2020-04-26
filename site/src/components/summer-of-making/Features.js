@@ -75,42 +75,6 @@ const ModuleDetails = styled(Box).attrs({
 
 const ModuleDetailsDocument = styled(Flex.withComponent('li'))``
 
-const Document = ({ name, cost }) => (
-  <ModuleDetailsDocument align={cost ? 'start' : 'center'}>
-    <Icon
-      size={28}
-      mr={1}
-      glyph="payment"
-      color="success"
-      style={{ flexShrink: 0 }}
-    />
-    <Box>
-      <Text fontSize={2} children={name} />
-      {cost && (
-        <Text
-          fontSize={1}
-          color="muted"
-          style={{ lineHeight: '1.375' }}
-          children={cost}
-        />
-      )}
-    </Box>
-  </ModuleDetailsDocument>
-)
-
-const Laptop = styled.div`
-  width: 100%;
-  height: 100%;
-  background-size: auto 115%;
-  background-image: url('/bank/mac.png');
-  background-position: center top;
-  background-repeat: no-repeat;
-  ${theme.mediaQueries.md} {
-    grid-row: span 2;
-    grid-column: span 2;
-  }
-`
-
 export default () => (
   <Base pt={[5, 6, 7]} pb={[4, 5, 6]} color="snow">
     <Modules px={3}>
@@ -156,20 +120,5 @@ export default () => (
       />
       
     </Modules>
-
-    <Lead maxWidth={28} color="slate" fontSize={3} align="center" mt={[4, 5]}>
-      Have more questions?
-      <br />
-      Contact us {' '}
-      <A
-        href="https://airtable.com/shrZYs8mqaCqKJ6Hl"
-        target="_blank"
-        color="primary"
-        hoverline
-      >
-        here
-      </A>
-      .
-    </Lead>
   </Base>
 )

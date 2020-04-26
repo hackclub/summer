@@ -73,42 +73,31 @@ export default () => (
   <Base pt={[5, 6, 7]} pb={[4, 5, 6]} color="snow">
     <Modules px={3}>
       <Box>
-        <Headline>Make your dream a reality.</Headline>
-        <Lead fontSize={[3, 4]} color="muted" maxWidth={48} mx={0}>
-          We'll always be there for you and can't wait to see what you make!
-          <br />
-          Want something else integrated into the program? Let us know.
-        </Lead>
+        <Headline>Frequently Asked Questions</Headline>
       </Box>
 
       <Module
-        icon="support"
         name="Mentorship"
         body="Every participant will be receiving their very own industry expert mentor to support them every step of the way. You'll have weekly digital meetings with your mentor."
       />
       
       <Module
-        icon="help"
         name="Resources"
         body="Need something to make your project possible? Let us know on your application and we'll do our best to get it for you. You can also ping us at any time to ask."
       />
       <Module
-        icon="web"
         name="Marketing Assistance"
         body="We'll promote your project through our channels as well as supporting you with your own marketing."
       />
       <Module
-        icon="shirt"
         name="Swag"
         body="Need to ask about this will be given to those who complete."
       />
       <Module
-        icon="mention"
         name="Priority Support"
         body="Our dedicated team of amazing people will always be there to support you! We'll have a private channel on Slack for communication."
       />
       <Module
-        icon="payment"
         name="For Free"
         body="Did we forget to mention that this is all for free? No hidden charges, we solemnly swear."
       />
