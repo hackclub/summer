@@ -77,29 +77,29 @@ export default () => (
       </Box>
 
       <Module
-        name="Mentorship"
-        body="Every participant will be receiving their very own industry expert mentor to support them every step of the way. You'll have weekly digital meetings with your mentor."
+        name="Who can participate in the program?"
+        body="The program is intended for people above 13 who are attending either a middle school or high school anywhere in the world. Too young? We can make exceptions on a case-by-case basis. Feel free to reach out!"
       />
       
       <Module
-        name="Resources"
-        body="Need something to make your project possible? Let us know on your application and we'll do our best to get it for you. You can also ping us at any time to ask."
+        name="My school starts while the program is going on. Can I still participate in the program?"
+        body="For sure! Since the program is virtual, you should still be able to — and in fact, are encouraged to — work on the project once school resumes. That being said, we expect that you devote 100% effort throughout the program."
       />
       <Module
-        name="Marketing Assistance"
-        body="We'll promote your project through our channels as well as supporting you with your own marketing."
+        name="I am going to a summer camp during the program. Can I still participate?"
+        body="Certainly! Just make sure that you’ll be able to dedicate time to the project every week throughout the program."
       />
       <Module
-        name="Swag"
-        body="Need to ask about this will be given to those who complete."
+        name="How will participants be meeting with mentors?"
+        body="This program is 100% online, you'll be meeting through video call."
       />
       <Module
-        name="Priority Support"
-        body="Our dedicated team of amazing people will always be there to support you! We'll have a private channel on Slack for communication."
+        name="How are participants paired with mentors?"
+        body="Accepted participants will be paired with an industry expert mentor who shares similar interests. Want to make a cool video game? You’ll be paired with someone who is experienced with game design!"
       />
       <Module
-        name="For Free"
-        body="Did we forget to mention that this is all for free? No hidden charges, we solemnly swear."
+        name="Who is running the competition?"
+        body="The program is being run by Hack Club, a non profit network of computer science clubs where members learn to code through tinkering and building projects. It is the biggest such network and has gained the attention of tech luminaries like Elon Musk!"
       />
       
     </Modules>
