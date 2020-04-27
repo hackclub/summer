@@ -112,7 +112,7 @@ export default () => (
       <Timeline.Step icon="send" name="Application Period" duration="May 1st to 31st" />
       <Timeline.Step icon="message-new" name="Application Results Released" duration="June 15th"/>
       <Timeline.Step icon="bolt" name="Get Making!" duration="June 21st" />
-      <Timeline.Step icon="share" name="Completed Projects Showcased" duration="Aug. 16th" />
+      <Timeline.Step icon="share" name="Completed Projects Showcased" duration="Aug. 1st" />
     </Timeline>
   </Box.section>
 )
