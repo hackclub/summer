@@ -77,7 +77,7 @@ export default () => (
             Your Application
           </Subhline>
           <Form />
-          <Link href = "https://airtable.com/shrm8k5H6qnKY0m5q"><LargeButton width={1} my={4}>Volunteer as a Mentor</LargeButton></Link>
+          <Link href = "https://airtable.com/shrm8k5H6qnKY0m5q"><LargeButton width={1} my={4} bg="success">Volunteer as a Mentor</LargeButton></Link>
         </Sheet>
       </Fade>
       <div>
