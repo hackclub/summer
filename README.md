@@ -58,4 +58,4 @@ The program is being run by Hack Club, a non profit network of computer science 
 
 Have more questions? Contact us [here](https://airtable.com/shrZYs8mqaCqKJ6Hl). We can't wait to hear from you!
 
-You can also message @sampoder on the Hack Club Slack
+You can also message @sampoder on the Hack Club Slack.
