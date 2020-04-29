@@ -104,9 +104,9 @@ export default () => (
         body="We'll promote your project through our channels as well as supporting you with your own marketing."
       />
       <Module
-        icon="shirt"
-        name="Swag"
-        body="Need to ask about this will be given to those who complete."
+        icon="friend"
+        name="Community"
+        body="Meet other passionate makers and make new friends with similar passions!"
       />
       <Module
         icon="mention"
