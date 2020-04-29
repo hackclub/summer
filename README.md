@@ -1,5 +1,7 @@
 <p align="center"><img width="200px" height="200px" alt="Hack Club icon" src="https://summer-7ust1iyit.now.sh/favicon.png"></a>
-<h1 align="center"><a href="https://summer.hackclub.com/">Summer of Making</a></h1>
+
+<h1 align="center"><a href="https://summer-hackclub.now.sh/">Summer of Making 2020</a></h1>
+
 <p align="center"><i>This repo contains everything related to Hack Club's Summer of Code.</i></p>
 
 ### About the Program
