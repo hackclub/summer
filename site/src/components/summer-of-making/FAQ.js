@@ -90,8 +90,8 @@ export default () => (
         body="Certainly! Just make sure that you’ll be able to dedicate time to the project every week throughout the program."
       />
       <Module
-        name="How will participants be meeting with mentors?"
-        body="This program is 100% online, you'll be meeting through video call."
+        name="What are the requirements for a project idea?"
+        body="We're open to anything even remotely related to technology and hacking! We'll do our absolute best to make sure you get the best experience no matter what are your project is in. Just make sure it's all legal. For coding projects, we ask that you open source to help contribute back to the community. "
       />
       <Module
         name="How are participants paired with mentors?"
