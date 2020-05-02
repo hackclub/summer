@@ -12,7 +12,6 @@ import {
   theme
 } from '@hackclub/design-system'
 import { Link } from 'gatsby'
-import PureImagination from 'components/PureImagination'
 
 const Base = styled(Box.withComponent('footer'))`
   background: ${props =>
@@ -107,7 +106,6 @@ const Footer = ({ dark = false, children, ...props }) => (
     {...props}
   >
     {children}
-    <PureImagination />
     <Container px={3}>
       <Box fontSize={2} mt={[3, 4]}>
         <Text>
