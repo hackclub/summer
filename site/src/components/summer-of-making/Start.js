@@ -82,7 +82,7 @@ export default () => (
       </Fade>
       <div>
         <Timeline>
-          <Timeline.Step icon="send" name="Apply" duration="Right now" first />
+          <Timeline.Step icon="send" name="Apply" duration="Very Soon" first />
           <Timeline.Step name="Application Results" duration="On June 15th" />
           <Timeline.Step name="Meet your Mentor" duration="That Same Week" />
           <Timeline.Step name="Get Making!" duration="This Summer" />
