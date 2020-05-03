@@ -22,10 +22,6 @@ Those who participate, will join an alumni of passionate makers like themselves 
 
 Link: Coming Soon
 
-Start Date: 1st May 2020
-
-End Date: 31st May 2020
-
 ### Want to help Mentor?
 
 Adults in the tech industry, we need your help to provide the future generation of makers with the support to kickstart their projects! 
