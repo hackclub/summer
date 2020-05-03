@@ -2,7 +2,6 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { ThemeProvider } from '@hackclub/design-system'
 import BG from 'components/BG'
-import serviceWorkerKiller from '../../static/swkiller'
 
 const meta = tags =>
   tags.map((props, index) =>
