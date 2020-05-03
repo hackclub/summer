@@ -1,6 +1,5 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import data, { url, org } from 'data.json'
 import { ThemeProvider, theme } from '@hackclub/design-system'
 import BG from 'components/BG'
 import serviceWorkerKiller from '../../static/swkiller'
