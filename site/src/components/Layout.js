@@ -1,8 +1,7 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import { ThemeProvider, theme } from '@hackclub/design-system'
+import { ThemeProvider } from '@hackclub/design-system'
 import BG from 'components/BG'
-import serviceWorkerKiller from '../../static/swkiller'
 
 const meta = tags =>
   tags.map((props, index) =>
@@ -10,10 +9,12 @@ const meta = tags =>
   )
 
 export default ({
-  title = data.title,
-  desc = data.description,
+  title = 'Hack Club – Summer of Making',
+  desc = 'Hack Club is a global nonprofit network of high school makers & student-led coding clubs where young people build the agency, the network, & the technical talent to think big & do big things in the world.',
+  url = 'https://summer.hackclub.com',
   path = '/',
-  img = data.img,
+  img = 'https://cdn.glitch.com/a7605379-7582-4aac-8f44-45bbdfca0cfa%2Fhackclub.jpg?v=1587740807714',
+  color = '#ec3750',
   bg,
   children
 }) => (
@@ -30,46 +31,44 @@ export default ({
         { name: 'twitter:domain', content: url + '/' },
         { name: 'twitter:title', content: title },
         { name: 'twitter:description', content: desc },
-        { name: 'twitter:image', content: url + img },
-        { property: 'og:site_name', content: data.name },
+        { name: 'twitter:image', content: img },
+        { property: 'og:site_name', content: 'Hack Club' },
         { property: 'og:title', content: title },
         { property: 'og:description', content: desc },
-        { property: 'og:image', content: url + img },
+        { property: 'og:image', content: img },
         { property: 'og:locale', content: 'en_US' },
         { property: 'og:type', content: 'website' },
         { property: 'og:url', content: url + path }
       ])}
-      <meta name="theme-color" content={theme.colors.primary} />
-      <meta name="msapplication-TileColor" content={theme.colors.primary} />
-      <link rel="manifest" href="/manifest.webmanifest" />
+      <link rel="manifest" href="https://assets.hackclub.com/favicons/site.webmanifest" />
       <meta name="application-name" content="Hack Club" />
       <meta name="apple-mobile-web-app-title" content="Hack Club" />
+        
+      <meta key="theme_color" name="theme-color" content={color} />
+      <meta key="tile_color" name="msapplication-TileColor" content={color} />
+
       <link
         rel="mask-icon"
-        href="/safari-pinned-tab.svg"
-        color={theme.colors.primary}
+        href="https://assets.hackclub.com/favicons/safari-pinned-tab.svg"
+        color={color}
       />
       <link
         rel="apple-touch-icon"
         sizes="180x180"
-        href="/apple-touch-icon.png"
+        href="https://assets.hackclub.com/favicons/apple-touch-icon.png"
       />
       <link
         rel="icon"
         type="image/png"
         sizes="32x32"
-        href="/favicon-32x32.png"
+        href="https://assets.hackclub.com/favicons/favicon-32x32.png"
       />
       <link
         rel="icon"
         type="image/png"
         sizes="16x16"
-        href="/favicon-16x16.png"
+        href="https://assets.hackclub.com/favicons/favicon-16x16.png"
       />
-      <script
-        children={`${serviceWorkerKiller.toString()}; serviceWorkerKiller()`}
-      />
-      <script type="application/ld+json" children={JSON.stringify(org)} />
     </Helmet>
     {bg && <BG color={bg} />}
     {children}
