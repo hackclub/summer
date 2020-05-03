@@ -54,7 +54,7 @@ const InnerForm = ({ values, errors, touched, handleChange, handleBlur }) => (
       error={touched.last_name && errors.last_name}
       mb={[4, 5]}
     />
-    <Submit.lg bg="info" width={1} value="Applications Opening TBA" />
+    <Submit.lg bg="info" width={1} value="Applications Opening Soon" />
   </Base>
 )
 const Signup = withFormik({
