@@ -13,13 +13,6 @@ module.exports = {
       options: {
         siteUrl: 'https://summer.hackclub.com'
       }
-    },
-    {
-      resolve: 'gatsby-plugin-segment-js',
-      options: {
-        prodKey: '35oTlU4UqlhIN8VGYmBxAzyDdfzhcscw',
-        trackPage: true
-      }
     }
   ]
 }
