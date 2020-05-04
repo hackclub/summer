@@ -98,7 +98,7 @@ export default () => (
         body="Accepted participants will be paired with an industry expert mentor who shares similar interests. Want to make a cool video game? You’ll be paired with someone who is experienced with game design!"
       />
       <Module
-        name="Who is running the competition?"
+        name="Who is running the program?"
         body="The program is being run by Hack Club, a non profit network of computer science clubs where members learn to code through tinkering and building projects. It is the biggest such network and has gained the attention of tech luminaries like Elon Musk!"
       />
       
