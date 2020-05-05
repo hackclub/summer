@@ -9,11 +9,11 @@ const meta = tags =>
   )
 
 export default ({
-  title = 'Hack Club – Summer of Making',
-  desc = 'Hack Club is a global nonprofit network of high school makers & student-led coding clubs where young people build the agency, the network, & the technical talent to think big & do big things in the world.',
+  title = 'Summer of Making by Hack Club',
+  desc = 'Let\'s make something awesome this summer! Hack Club\'s Summer of Making empowers you to make that passion project a reality. No more putting it off, now is the time!',
   url = 'https://summer.hackclub.com',
   path = '/',
-  img = 'https://cdn.glitch.com/a7605379-7582-4aac-8f44-45bbdfca0cfa%2Fhackclub.jpg?v=1587740807714',
+  img = 'https://summer.hackclub.com/cards/summer.png',
   color = '#ec3750',
   bg,
   children
@@ -40,7 +40,7 @@ export default ({
         { property: 'og:type', content: 'website' },
         { property: 'og:url', content: url + path }
       ])}
-      <link rel="manifest" href="https://assets.hackclub.com/favicons/site.webmanifest" />
+      <link rel="manifest" href="/manifest.webmanifest" />
       <meta name="application-name" content="Hack Club" />
       <meta name="apple-mobile-web-app-title" content="Hack Club" />
         
@@ -49,25 +49,25 @@ export default ({
 
       <link
         rel="mask-icon"
-        href="https://assets.hackclub.com/favicons/safari-pinned-tab.svg"
+        href="/safari-pinned-tab.svg"
         color={color}
       />
       <link
         rel="apple-touch-icon"
         sizes="180x180"
-        href="https://assets.hackclub.com/favicons/apple-touch-icon.png"
+        href="/apple-touch-icon.png"
       />
       <link
         rel="icon"
         type="image/png"
         sizes="32x32"
-        href="https://assets.hackclub.com/favicons/favicon-32x32.png"
+        href="/favicon-32x32.png"
       />
       <link
         rel="icon"
         type="image/png"
         sizes="16x16"
-        href="https://assets.hackclub.com/favicons/favicon-16x16.png"
+        href="/favicon-16x16.png"
       />
     </Helmet>
     {bg && <BG color={bg} />}
