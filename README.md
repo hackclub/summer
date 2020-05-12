@@ -1,8 +1,8 @@
 <p align="center"><img width="200px" height="200px" alt="Hack Club icon" src="https://summer-7ust1iyit.now.sh/favicon.png"></a>
 
-<h1 align="center"><a href="https://summer-hackclub.now.sh/">Summer of Making 2020</a></h1>
+<h1 align="center"><a href="https://summer.hackclub.com/">Summer of Making 2020</a></h1>
 
-<p align="center"><i>This repo contains everything related to Hack Club's Summer of Code.</i></p>
+<p align="center"><i>This repo contains everything related to Summer of Making (a Hack Club Community Initative).</i></p>
 
 ### About the Program
 
@@ -10,9 +10,7 @@ The Summer of Making program provides teenagers with the resources needed to mak
 
 Every participant will be receiving their very own industry expert mentor to support them every step of the way. The participants will have weekly digital meetings with their mentor.
 
-Hack Club will be giving you access to hundreds of thousands of dollars worth of software development tools as part of the program. This will be done through our fast track lane for the Github Student Developer Pack. Do you need something else to make your project possible? Let us know in your application and we'll do our best to get it for you for you as well.
-
-Once your project is complete, we'll promote your project through our channels as well as supporting you with your own marketing efforts to get the word out!
+If you don't already have it, you'll be able to redeem the Hack Pack. If you need something else to make your project possible, let us know in your application and we'll do our best to get it for you as well. Once your project is complete, we'll promote your project to the world as well as supporting you with your own marketing efforts to get the word out!
 
 The program will be taking place this summer with the making stage being from June 21st to August 16th. Once the projects are completed they'll be showcased to the world.
 
@@ -52,7 +50,7 @@ Accepted participants will be paired with an industry expert mentor who shares s
 
 **Who is running the competition?**
 
-The program is being run by Hack Club, a non profit network of computer science clubs where members learn to code through tinkering and building projects. It is the biggest such network and has gained the attention of tech luminaries like Elon Musk!
+This program is a Hack Club Community Initiative, being ran by @sampoder, @roshan & @neelr. Hack Club is a non profit network of computer science clubs where members learn to code through tinkering and building projects. It is the biggest such network and has gained the attention of tech luminaries like Elon Musk!
 
 Have more questions? Contact us [here](https://airtable.com/shrZYs8mqaCqKJ6Hl). We can't wait to hear from you!
 
