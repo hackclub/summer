@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Summer of Code by Hack Club',
+    title: 'Summer of Making (a Hack Club Community Initiative)',
     siteUrl: 'https://summer.hackclub.com'
   },
   plugins: [
