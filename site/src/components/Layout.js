@@ -10,7 +10,7 @@ const meta = tags =>
 
 export default ({
   title = 'Summer of Making (a Hack Club Community Initiative)',
-  desc = 'Let\'s make something awesome this summer! Hack Club\'s Summer of Making empowers you to make that passion project a reality. No more putting it off, now is the time!',
+  desc = 'Let\'s make something awesome this summer! Summer of Making empowers you to make that passion project a reality. No more putting it off, now is the time!',
   url = 'https://summer.hackclub.com',
   path = '/',
   img = 'https://summer.hackclub.com/cards/summer.png',
