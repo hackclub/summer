@@ -94,12 +94,12 @@ export default () => (
         </Heading.h1>
         <Lead maxWidth={48} my={4} fontSize={[3, 4]} font-weight={250}>
           
-          Hack Club's Summer of Making empowers you to make that passion project a reality. No more putting it off, now is the time!
+          A program by the community for the community: Summer of Making empowers you to make that passion project a reality. No more putting it off, now is the time!
           
         </Lead>
       </Fade>
       <Flex justify="center" align="center">
-        <Button href="#apply">Apply now!</Button>
+        <Button href="#apply">Applications Opening Soon</Button>
       </Flex>
       
     </Container>

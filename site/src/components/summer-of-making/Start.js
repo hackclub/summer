@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Box, Container, Flex, Text, theme } from '@hackclub/design-system'
+import { Box, Container, Flex, Text, LargeButton, Link, theme } from '@hackclub/design-system'
 import { Fade } from 'react-reveal'
 import { Headline, Subhline, Lead } from 'components/Content'
 import Sheet from 'components/Sheet'
@@ -61,7 +61,7 @@ Timeline.Step = ({ name, duration, first = false }) => (
 )
 
 export default () => (
-  <Box.section bg="dark" py={[5, 6, 7]} id="apply">
+  <Box.section bg="darker" py={[5, 6, 7]} id="apply">
     <Container maxWidth={48} px={3} align="center">
       <Headline color="white" mb={2}>
         Apply for Hack Club's Summer of Making Program.
@@ -77,11 +77,12 @@ export default () => (
             Your Application
           </Subhline>
           <Form />
+          <Link href = "https://airtable.com/shrm8k5H6qnKY0m5q"><LargeButton width={1} my={4} bg="success">Volunteer as a Mentor</LargeButton></Link>
         </Sheet>
       </Fade>
       <div>
         <Timeline>
-          <Timeline.Step icon="send" name="Apply" duration="Right now" first />
+          <Timeline.Step icon="send" name="Apply" duration="Very Soon" first />
           <Timeline.Step name="Application Results" duration="On June 15th" />
           <Timeline.Step name="Meet your Mentor" duration="That Same Week" />
           <Timeline.Step name="Get Making!" duration="This Summer" />

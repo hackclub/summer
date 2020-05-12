@@ -12,14 +12,13 @@ import {
   theme
 } from '@hackclub/design-system'
 import { Link } from 'gatsby'
-import PureImagination from 'components/PureImagination'
 
 const Base = styled(Box.withComponent('footer'))`
   background: ${props =>
     props.dark
       ? `${theme.colors.darker} radial-gradient(${hexa(
           theme.colors.black,
-          0.5
+          1
         )} 1px, transparent 1px)`
       : `${theme.colors.snow} url('/pattern.svg') repeat`};
   ${props =>
@@ -107,11 +106,10 @@ const Footer = ({ dark = false, children, ...props }) => (
     {...props}
   >
     {children}
-    <PureImagination />
     <Container px={3}>
       <Box fontSize={2} mt={[3, 4]}>
         <Text>
-          A Project by Hack Club
+          A Hack Club Sanctioned Project
         </Text>
       </Box>
       <BottomLine mt={3}>

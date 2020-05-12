@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Summer of Code by Hack Club',
+    title: 'Summer of Making (a Hack Club Community Initiative)',
     siteUrl: 'https://summer.hackclub.com'
   },
   plugins: [
@@ -12,13 +12,6 @@ module.exports = {
       resolve: 'gatsby-plugin-canonical-urls',
       options: {
         siteUrl: 'https://summer.hackclub.com'
-      }
-    },
-    {
-      resolve: 'gatsby-plugin-segment-js',
-      options: {
-        prodKey: '35oTlU4UqlhIN8VGYmBxAzyDdfzhcscw',
-        trackPage: true
       }
     }
   ]

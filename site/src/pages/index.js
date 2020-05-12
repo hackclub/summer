@@ -8,6 +8,7 @@ import Run from 'components/summer-of-making/Run'
 import Features from 'components/summer-of-making/Features'
 import Timeline from 'components/summer-of-making/Timeline'
 import Start from 'components/summer-of-making/Start'
+import FAQ from 'components/summer-of-making/FAQ'
 
 const styles = `
   body {
@@ -22,7 +23,7 @@ const styles = `
   }
 `
 
-const title = 'Summer of Making 2020 by Hack Club'
+const title = 'Summer of Making 2020 (a Hack Club Community Initiative)'
 const desc =
   "Let's make something awesome this summer. Hack Club's Summer of Making empowers you to make that passion project a reality. No more putting it off, now is the time!"
 export default () => (
@@ -33,6 +34,7 @@ export default () => (
     <Features />
     <Timeline />
     <Run />
+    <FAQ />
     <Start />
     <Footer dark />
   </Layout>
