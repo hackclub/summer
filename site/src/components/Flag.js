@@ -32,8 +32,8 @@ const Flag = styled(Link)`
   margin-right: auto;
 
   ${theme.mediaQueries.md} {
-  width: 224px;
-  height: 96px;
+    width: 144px;
+    height: 72px;
   }
   &:hover,
   &:focus {
