@@ -32,7 +32,7 @@ const InnerForm = ({ values, errors, touched, handleChange, handleBlur }) => (
   <Base
     method="get"
     target="_blank"
-    action={``}
+    action={`https://airtable.com/shrzvck3Oz5Kkr33M`}
   >
     <Field
       label="Full Name"
@@ -47,14 +47,14 @@ const InnerForm = ({ values, errors, touched, handleChange, handleBlur }) => (
     <Field
       label="Contact Email"
       name="prefill_Contact Email"
-      placeholder="sampoder@email.com"
+      placeholder="sam@summer.hackclub.com"
       value={values.last_name}
       onChange={handleChange}
       onBlur={handleBlur}
       error={touched.last_name && errors.last_name}
       mb={[4, 5]}
     />
-    <Submit.lg bg="info" width={1} value="Applications Opening Soon" />
+    <Submit.lg bg="info" width={1} value="Continue Your Application" />
   </Base>
 )
 const Signup = withFormik({
