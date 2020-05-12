@@ -24,8 +24,8 @@ const Flag = styled(Link)`
   background: url(/orpheus_flag.svg) no-repeat;
   background-position: top center;
   flex-shrink: 0;
-  width: 112px;
-  height: 48px;
+  width: 224px;
+  height: 96px;
   transition: ${theme.transition} transform;
   transform-origin: top center;
   margin-left: auto;
