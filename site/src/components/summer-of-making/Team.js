@@ -37,8 +37,9 @@ Modules.defaultProps = {
 const Module = ({ icon, name, body, ...props }) => (
   <Flex align="start" {...props}>
     <Avatar
-      size={48}
+      size={64}
       src="https://hackclub.com/team/zach.jpg"
+      marginRight={2}
     />
     <Box>
       <Heading.h3 color="snow" fontSize={3} mb={1} children={name} />
