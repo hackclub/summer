@@ -99,7 +99,7 @@ export default () => (
       />
       <Module
         name="Who is running the program?"
-        body="This program is a Hack Club Community Initiative, being ran by @sampoder, @roshan & @neelr. Hack Club is a non profit network of computer science clubs where members learn to code through tinkering and building projects. It is the biggest such network and has gained the attention of tech luminaries like Elon Musk!"
+        body="This program is a Hack Club Community Initiative, being ran by @sampoder, @roshan & @neelr. The event has been sanctioned by Hack Club HQ. Hack Club is a non profit network of computer science clubs where members learn to code through tinkering and building projects. It is the biggest such network and has gained the attention of tech luminaries like Elon Musk!"
       />
       
     </Modules>
