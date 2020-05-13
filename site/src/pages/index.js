@@ -34,9 +34,9 @@ export default () => (
     <Landing />
     <Features />
     <Timeline />
-    <Team />
     <Run />
     <FAQ />
+    <Team />
     <Start />
     <Footer dark />
   </Layout>
