@@ -64,7 +64,7 @@ export default () => (
   <Box.section bg="darker" py={[5, 6, 7]} id="apply">
     <Container maxWidth={48} px={3} align="center">
       <Headline color="white" mb={2}>
-        Apply for Summer of Making Now!.
+        Apply for Summer of Making
       </Headline>
       <Lead maxWidth={32} color="muted">
         Open to <strong>all</strong> teenagers aged 13 to 18.
