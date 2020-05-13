@@ -9,6 +9,7 @@ import Features from 'components/summer-of-making/Features'
 import Timeline from 'components/summer-of-making/Timeline'
 import Start from 'components/summer-of-making/Start'
 import FAQ from 'components/summer-of-making/FAQ'
+import Team from 'components/summer-of-making/Team'
 
 const styles = `
   body {
@@ -25,7 +26,7 @@ const styles = `
 
 const title = 'Summer of Making (a Hack Club Community Initiative)'
 const desc =
-  "Let's make something awesome this summer. Hack Club's Summer of Making empowers you to make that passion project a reality. No more putting it off, now is the time!"
+  "Let's make something awesome this summer! Hack Club's Summer of Making empowers you to make that passion project a reality. No more putting it off, now is the time!"
 export default () => (
   <Layout title={title} desc={desc} img="/cards/summer.png" path="/summer-of-making/">
     <style children={styles} />
@@ -35,6 +36,7 @@ export default () => (
     <Timeline />
     <Run />
     <FAQ />
+    <Team />
     <Start />
     <Footer dark />
   </Layout>

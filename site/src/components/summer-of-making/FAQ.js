@@ -72,7 +72,7 @@ const ModuleDetailsDocument = styled(Flex.withComponent('li'))``
 export default () => (
   <Base pt={[5, 6, 7]} pb={[4, 5, 6]} color="snow">
     <Modules px={3}>
-      <Box>
+      <Box align="center">
         <Headline>Frequently Asked Questions</Headline>
       </Box>
 
@@ -98,8 +98,8 @@ export default () => (
         body="Accepted participants will be paired with an industry expert mentor who shares similar interests. Want to make a cool video game? You’ll be paired with someone who is experienced with game design!"
       />
       <Module
-        name="Who is running the program?"
-        body="This program is a Hack Club Community Initiative, being ran by @sampoder, @roshan & @neelr. The event has been sanctioned by Hack Club HQ. Hack Club is a non profit network of computer science clubs where members learn to code through tinkering and building projects. It is the biggest such network and has gained the attention of tech luminaries like Elon Musk!"
+        name="How is Hack Club involved?"
+        body="This program is a Hack Club Community Initiative and has been sanctioned by Hack Club HQ. Hack Club is a non profit network of computer science clubs where members learn to code through tinkering and building projects. It is the biggest such network and has gained the attention of tech luminaries like Elon Musk!"
       />
       
     </Modules>
