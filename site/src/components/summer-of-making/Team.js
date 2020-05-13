@@ -38,7 +38,7 @@ const Module = ({ icon, name, body, ...props }) => (
   <Flex align="start" {...props}>
     <Avatar
       size={64}
-      src="https://hackclub.com/team/zach.jpg"
+      src={icon}
       style={{ marginRight: '20px'}}
     />
     <Box>
@@ -87,36 +87,24 @@ export default () => (
       </Box>
 
       <Module
-        icon="support"
+        icon="https://ca.slack-edge.com/T0266FRGM-USNPNJXNX-77cff696fecc-512"
         name="Sam Poder"
         body="sam@summer.hackclub.com"
       />
       
       <Module
-        icon="help"
-        name="Resources"
-        body="Need something to make your project possible? Let us know on your application and we'll do our best to get it for you. You can also ping us at any time to ask."
+        icon="https://ca.slack-edge.com/T0266FRGM-USNPNJXNX-77cff696fecc-512"
+        name="Sam Poder"
+        body="sam@summer.hackclub.com"
       />
+      
       <Module
-        icon="web"
-        name="Marketing Assistance"
-        body="We'll promote your project through our channels as well as supporting you with your own marketing."
+        icon="https://ca.slack-edge.com/T0266FRGM-USNPNJXNX-77cff696fecc-512"
+        name="Sam Poder"
+        body="sam@summer.hackclub.com"
       />
-      <Module
-        icon="friend"
-        name="Community"
-        body="Meet other passionate makers and make new friends with similar passions!"
-      />
-      <Module
-        icon="mention"
-        name="Priority Support"
-        body="Our dedicated team of amazing people will always be there to support you! We'll have a private channel on Slack for communication."
-      />
-      <Module
-        icon="payment"
-        name="For Free"
-        body="Did we forget to mention that this is all for free? No hidden charges, we solemnly swear."
-      />
+      
+      
       
     </Modules>
   </Base>
