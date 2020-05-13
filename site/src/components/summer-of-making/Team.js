@@ -39,7 +39,7 @@ const Module = ({ icon, name, body, ...props }) => (
     <Avatar
       size={64}
       src="https://hackclub.com/team/zach.jpg"
-      style={{ marginRight: '2'}}
+      style={{ marginRight: '20px'}}
     />
     <Box>
       <Heading.h3 color="snow" fontSize={3} mb={1} children={name} />
