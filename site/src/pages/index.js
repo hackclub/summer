@@ -9,6 +9,7 @@ import Features from 'components/summer-of-making/Features'
 import Timeline from 'components/summer-of-making/Timeline'
 import Start from 'components/summer-of-making/Start'
 import FAQ from 'components/summer-of-making/FAQ'
+import Team from 'components/summer-of-making/Team'
 
 const styles = `
   body {
@@ -33,6 +34,7 @@ export default () => (
     <Landing />
     <Features />
     <Timeline />
+    <Team />
     <Run />
     <FAQ />
     <Start />
