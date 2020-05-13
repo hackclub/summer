@@ -80,7 +80,7 @@ export default () => (
     <Modules px={3}>
       <Box align="center">
         <Headline>Make your dream a reality.</Headline>
-        <Lead fontSize={[3, 4]} color="muted" maxWidth={48} mx={0} style={{textAlign:"center"; margin: "auto"}}>
+        <Lead fontSize={[3, 4]} color="muted" maxWidth={48} mx={0} style={{textAlign:"center", margin: "auto"}}>
           We'll always be there for you and can't wait to see what you make!
           <br />
           Want something else integrated into the program? Let us know.

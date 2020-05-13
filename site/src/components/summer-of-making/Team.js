@@ -79,7 +79,7 @@ export default () => (
     <Modules px={3}>
       <Box align="center">
         <Headline>The Team</Headline>
-        <Lead fontSize={[3, 4]} color="muted" maxWidth={48} mx={0} style={{textAlign:"center"; margin: "auto"}}>
+        <Lead fontSize={[3, 4]} color="muted" maxWidth={48} mx={0} style={{textAlign:"center", margin: "auto"}}>
           Made by the community, for the community.
         </Lead>
       </Box>
