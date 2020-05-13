@@ -77,7 +77,7 @@ const ModuleDetailsDocument = styled(Flex.withComponent('li'))``
 export default () => (
   <Base pt={[5, 6, 7]} pb={[4, 5, 6]} color="snow" bg="darker">
     <Modules px={3}>
-      <Box>
+      <Box align="center">
         <Headline>The Team</Headline>
         <Lead fontSize={[3, 4]} color="muted" maxWidth={48} mx={0}>
           Made by the community, for the community.

@@ -76,9 +76,9 @@ const ModuleDetails = styled(Box).attrs({
 const ModuleDetailsDocument = styled(Flex.withComponent('li'))``
 
 export default () => (
-  <Base pt={[5, 6, 7]} pb={[4, 5, 6]} color="snow">
+  <Base pt={[5, 6, 7]} pb={[4, 5, 6]} color="snow" >
     <Modules px={3}>
-      <Box>
+      <Box align="center">
         <Headline>Make your dream a reality.</Headline>
         <Lead fontSize={[3, 4]} color="muted" maxWidth={48} mx={0}>
           We'll always be there for you and can't wait to see what you make!
