@@ -7,3 +7,4 @@ site/.DS_Store
 site/.cache
 site/node_modules
 site/public
+*.js~
