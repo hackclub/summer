@@ -22,7 +22,6 @@ import Nav from 'components/Nav'
 import Photo from 'components/Photo'
 import { Headline, Highlight, Lead } from 'components/Content'
 import Footer from 'components/Footer'
-import { stats } from 'data.json'
 
 const FeatureLink = styled(A).attrs({
   mt: 3,
@@ -88,16 +87,6 @@ const PhotoHeader = styled(Section).attrs({ px: 0 })`
   ${photoSection};
   ${shadows};
 `
-const MapBox = styled(PhotoHeader).attrs({ px: 0 })`
-  background-color: ${theme.colors.dark};
-  background-image: url('/map.svg');
-  background-repeat: no-repeat;
-  background-position: 20% top;
-  ${photoSection};
-  ${theme.mediaQueries.md} {
-    background-position: center 20%;
-  }
-`
 
 const featureStyles = css`
   min-height: 24rem;
@@ -147,55 +136,6 @@ const PhotoFeature = styled(TextFeature).attrs({
     color: ${theme.colors.black};
     font-size: ${theme.fontSizes[3]}px;
     margin-top: ${theme.space[3]}px;
-  }
-`
-const BankFeature = styled(Sheet)`
-  background-color: ${theme.colors.primary};
-  background-image: ${theme.gradient('red.5', 'red.7')};
-`
-const GrantFeature = styled(Sheet)`
-  position: relative;
-  overflow: visible;
-  background-image: url(${require('../../static/github/swoosh.svg')});
-  background-position: bottom right;
-  background-size: 22em;
-  background-repeat: no-repeat;
-  &:after {
-    content: '';
-    display: inline-block;
-    position: absolute;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    bottom: -2rem;
-    right: -2rem;
-    transform: rotate(24deg);
-    background-image: url(${require('../../static/github/jetpacktocat.png')});
-    width: 12rem;
-    height: 12rem;
-  }
-  > p {
-    font-weight: bold;
-    font-size: ${theme.fontSizes[5]}px;
-    line-height: 1.25;
-  }
-`
-const PackFeature = styled(Sheet)`
-  background-color: ${theme.colors.blue[4]};
-  background-image: ${theme.gradient('indigo.3', 'fuschia.6')};
-  position: relative;
-  overflow: visible;
-  &:after {
-    content: '';
-    z-index: 2;
-    display: inline-block;
-    position: absolute;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    bottom: -4rem;
-    left: 0rem;
-    background-image: url(${require('../../static/github/backpack.png')});
-    width: 8rem;
-    height: 12rem;
   }
 `
 const MarketingFeature = styled(Sheet)`
@@ -360,7 +300,7 @@ export default () => (
             Get a sample pack
           </FeatureLink> */}
         </MarketingFeature>
-        <PhotoFeature src="/start/call.jpg" inverted>
+        <PhotoFeature src="https://hackclub.com/start/call.jpg" inverted>
           <Text color="white">
             Talk to our team over a call or on Slack for{' '}
             <Text.span color="success">guidance & assistance</Text.span>{' '}
