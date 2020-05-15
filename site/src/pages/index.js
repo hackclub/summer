@@ -39,7 +39,6 @@ export default () => (
     <FAQ />
     <Team />
     <Start />
-    <Hardware />
     <Footer dark />
   </Layout>
 )
