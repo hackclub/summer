@@ -288,7 +288,7 @@ const OnlyDesktop = styled.span`
 `
 
 export default () => (
-  <Container maxWidth={72} px={3}>
+  <Container maxWidth={72} px={3} style = {{ textAlign: "left" }}>
       <Cols cols="2fr 3fr">
         <MarketingFeature>
           <Module
