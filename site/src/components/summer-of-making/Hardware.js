@@ -292,21 +292,14 @@ export default () => (
       <Cols cols="2fr 3fr">
         <MarketingFeature>
           <Module
-            icon="sticker"
-            name="Stickers!"
-            body="We’ll ship your club a box of our famous stickers for successful marketing from day one."
+            icon="bag-add"
+            name="$50K of Hardware to Giveaway!"
+            body="Thanks to GitHub, we're able to provide this year's cohort with up to USD 50,000 worth of Hardware to support them in their projects! More details are on the application form."
             color="white"
           />
-          {/* <FeatureLink to="/stickers" color="white">
-            Get a sample pack
-          </FeatureLink> */}
+     
         </MarketingFeature>
-        <PhotoFeature src="https://hackclub.com/start/call.jpg" inverted>
-          <Text color="white">
-            Talk to our team over a call or on Slack for{' '}
-            <Text.span color="success">guidance & assistance</Text.span>{' '}
-            whenever you need it.
-          </Text>
+        <PhotoFeature src="https://images.pexels.com/photos/163073/raspberry-pi-computer-linux-163073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" inverted>
         </PhotoFeature>
       </Cols>
   </Container>
