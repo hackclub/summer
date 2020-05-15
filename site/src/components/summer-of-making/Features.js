@@ -86,6 +86,12 @@ export default () => (
           Want something else integrated into the program? Let us know.
         </Lead>
       </Box>
+  
+      <Module
+        icon="bag-add"
+        name="$50K of Hardware to Giveaway"
+        body="Thanks to GitHub, we're going to be providing the entire cohort with up to USD 50,000 worth of Hardware to support your project."
+      />
 
       <Module
         icon="support"
@@ -93,11 +99,6 @@ export default () => (
         body="Every participant will be receiving their very own industry expert mentor to support them every step of the way. You'll have weekly digital meetings with your mentor."
       />
       
-      <Module
-        icon="help"
-        name="Resources"
-        body="Need something to make your project possible? Let us know on your application and we'll do our best to get it for you. You can also ping us at any time to ask."
-      />
       <Module
         icon="web"
         name="Marketing Assistance"
