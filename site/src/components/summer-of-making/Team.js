@@ -101,6 +101,20 @@ export default () => (
         name="Neel Redkar"
         body="neel@summer.hackclub.com"
       />
+  
+      <Box align="center">
+        <Headline>The Team</Headline>
+        <Lead fontSize={[3, 4]} color="muted" maxWidth={48} mx={0} style={{textAlign:"center", margin: "auto"}}>
+          Proudly supported by:
+        </Lead>
+  
+        <Image
+          alt="Github Logo"
+          src="/GitHub_Logo_White.png"
+          maxWidth={15}
+        />      
+  
+      </Box>
       
       
       
