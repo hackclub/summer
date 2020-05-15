@@ -118,8 +118,7 @@ export default () => (
         <Image
           alt="Github Logo"
           src="/GitHub_Logo_White.png"
-          style={{width: "50%"}}
-          style={{margin: "auto"}}
+          style={{margin: "auto", width: "50%"}}
         />      
   
       </Box>
