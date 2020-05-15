@@ -108,7 +108,7 @@ export default () => (
       
       
     </Modules>
-  <br>
+  <br/>
   <Box align="center" style={{textAlign:"center", margin: "auto"}}>
         <Lead fontSize={[3, 4]} color="muted" maxWidth={48} mx={0} style={{textAlign:"center", margin: "auto"}}>
           Proudly supported by:
