@@ -90,7 +90,7 @@ export default () => (
       <Module
         icon="bag-add"
         name="$50K of Hardware to Giveaway"
-        body="Thanks to GitHub, we're going to be providing the entire cohort with up to USD 50,000 worth of Hardware to support your project."
+        body="Thanks to GitHub, we're going to be providing the entire cohort with up to USD 50,000 worth of Hardware to support the participants! Just let us know on your application and if you're accepted we'll get it shipped to you."
       />
 
       <Module
