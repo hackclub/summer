@@ -89,35 +89,17 @@ export default () => (
   
         <Hardware />
       </Box>
-  
-      
-  
-      <Module
-        icon="bag-add"
-        name="$50K of Hardware to Giveaway"
-        body="Thanks to GitHub, we're going to be providing the entire cohort with up to USD 50,000 worth of Hardware to support the participants! Just let us know on your application and if you're accepted we'll get it shipped to you."
-      />
 
       <Module
         icon="support"
         name="Mentorship"
         body="Every participant will be receiving their very own industry expert mentor to support them every step of the way. You'll have weekly digital meetings with your mentor."
       />
-      
-      <Module
-        icon="web"
-        name="Marketing Assistance"
-        body="We'll promote your project through our channels as well as supporting you with your own marketing."
-      />
+     
       <Module
         icon="friend"
         name="Community"
-        body="Meet other passionate makers and make new friends with similar passions!"
-      />
-      <Module
-        icon="mention"
-        name="Priority Support"
-        body="Our dedicated team of amazing people will always be there to support you! We'll have a private channel on Slack for communication."
+        body="Meet other passionate makers and make new friends with similar passions! We'll also share your amazing projects with the wider community."
       />
       <Module
         icon="payment"
