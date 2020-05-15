@@ -86,9 +86,11 @@ export default () => (
           <br />
           Want something else integrated into the program? Let us know.
         </Lead>
+  
+        <Hardware />
       </Box>
   
-      <Hardware />
+      
   
       <Module
         icon="bag-add"
