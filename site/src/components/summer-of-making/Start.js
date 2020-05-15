@@ -83,9 +83,9 @@ export default () => (
       <div>
         <Timeline>
           <Timeline.Step icon="send" name="Apply" duration="Today" first />
-          <Timeline.Step name="Application Results" duration="On June 15th" />
-          <Timeline.Step name="Meet your Mentor" duration="That Same Week" />
-          <Timeline.Step name="Get Making!" duration="This Summer" />
+          <Timeline.Step name="Application Results" duration="On June 31st" />
+          <Timeline.Step name="Meet your Mentor" duration="That Weekend" />
+          <Timeline.Step name="Get Making!" duration="The Next Week" />
         </Timeline>
         
       </div>
