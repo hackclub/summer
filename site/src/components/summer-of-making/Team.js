@@ -103,7 +103,12 @@ export default () => (
         body="neel@summer.hackclub.com"
       />
   
-      <Box align="center" style={{textAlign:"center", margin: "auto"}}>
+      
+      
+      
+      
+    </Modules>
+  <Box align="center" style={{textAlign:"center", margin: "auto"}}>
         <Lead fontSize={[3, 4]} color="muted" maxWidth={48} mx={0} style={{textAlign:"center", margin: "auto"}}>
           Proudly supported by:
         </Lead>
@@ -116,9 +121,5 @@ export default () => (
         />      
   
       </Box>
-      
-      
-      
-    </Modules>
   </Base>
 )
