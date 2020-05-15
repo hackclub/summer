@@ -9,6 +9,7 @@ import {
   Link as A,
   Text,
   theme,
+  Image,
   Avatar
 } from '@hackclub/design-system'
 import { Headline, Lead } from 'components/Content'
