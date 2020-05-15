@@ -11,6 +11,7 @@ import {
   theme
 } from '@hackclub/design-system'
 import { Headline, Lead } from 'components/Content'
+import Hardware from 'components/summer-of-making/Hardware'
 
 const Base = styled(Box.section).attrs({ bg: 'dark', color: 'gray.3' })``
 
@@ -86,6 +87,8 @@ export default () => (
           Want something else integrated into the program? Let us know.
         </Lead>
       </Box>
+  
+      <Hardware />
   
       <Module
         icon="bag-add"
