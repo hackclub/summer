@@ -288,6 +288,7 @@ const OnlyDesktop = styled.span`
 `
 
 export default () => (
+  <Flex flexDirection="column" bg="snow" py={[5, 6]}>
       <Cols cols="2fr 3fr">
         <MarketingFeature>
           <Module
@@ -308,4 +309,5 @@ export default () => (
           </Text>
         </PhotoFeature>
       </Cols>
+  </Flex>
  )
