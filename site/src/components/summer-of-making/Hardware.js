@@ -139,8 +139,8 @@ const PhotoFeature = styled(TextFeature).attrs({
   }
 `
 const MarketingFeature = styled(Sheet)`
-  background-color: ${theme.colors.red[7]};
-  background-image: ${theme.gradient('red.6', 'red.8')};
+  background-color: ${theme.colors.red[6]};
+  background-image: ${theme.gradient('red.5', 'red.7')};
   position: relative;
   overflow: visible;
   ${Icon} {
