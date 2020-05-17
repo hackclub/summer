@@ -140,7 +140,7 @@ const PhotoFeature = styled(TextFeature).attrs({
 `
 const MarketingFeature = styled(Sheet)`
   background-color: ${theme.colors.red[5]};
-  background-image: ${theme.gradient('red.4', 'red.6')};
+  background-image: ${theme.gradient('red.4', 'red.2')};
   position: relative;
   overflow: visible;
   ${Icon} {
@@ -203,47 +203,6 @@ const Steps = styled(Box)`
   }
 `
 
-const HourFeatures = styled(Steps)`
-  section div {
-    min-height: 32rem;
-    justify-content: flex-start;
-  }
-  div + p {
-    margin-bottom: ${theme.space[4]}px;
-  }
-`
-
-const ApplyButton = styled(LargeButton).attrs({
-  scale: true,
-  chevronRight: true
-})`
-  text-transform: uppercase;
-  background-image: ${theme.gradient('warning', 'primary')};
-`
-const StepOne = styled(Sheet)`
-  background-color: ${theme.colors.red[6]};
-  background-image: linear-gradient(
-    to bottom,
-    ${theme.colors.orange[5]},
-    ${theme.colors.pink[6]}
-  );
-`
-const StepTwo = styled(Sheet)`
-  background-color: ${theme.colors.violet[6]};
-  background-image: linear-gradient(
-    to bottom,
-    ${theme.colors.fuschia[5]},
-    ${theme.colors.indigo[6]}
-  );
-`
-const StepThree = styled(Sheet)`
-  background-color: ${theme.colors.teal[6]};
-  background-image: linear-gradient(
-    to bottom,
-    ${theme.colors.cyan[5]},
-    ${theme.colors.blue[6]}
-  );
-`
 
 const SectionEyebrow = styled(Text).attrs({
   fontSize: [4, 5],
