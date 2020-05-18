@@ -91,7 +91,7 @@ export default () => (
       />
       <Module
         name="What are the requirements for a project idea?"
-        body="We're open to anything even remotely related to technology and hacking! We'll do our absolute best to make sure you get the best experience no matter what are your project is in. Just make sure it's all legal. We ask that you open source any code you write to help contribute back to the community. "
+        body="We're open to anything even remotely related to technology and hacking! We'll do our absolute best to make sure you get the best experience no matter what are your project is in. Just make sure it's all legal. For coding projects, we ask that you open source to help contribute back to the community. "
       />
       <Module
         name="How are participants paired with mentors?"

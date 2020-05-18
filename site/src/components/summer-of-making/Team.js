@@ -9,7 +9,6 @@ import {
   Link as A,
   Text,
   theme,
-  Image,
   Avatar
 } from '@hackclub/design-system'
 import { Headline, Lead } from 'components/Content'
@@ -102,25 +101,9 @@ export default () => (
         name="Neel Redkar"
         body="neel@summer.hackclub.com"
       />
-  
-      
       
       
       
     </Modules>
-  <br/>
-  <br/>
-  <Box align="center" style={{textAlign:"center", margin: "auto"}}>
-        <Lead fontSize={[3, 4]} color="muted" maxWidth={48} mx={0} style={{textAlign:"center", margin: "auto"}}>
-          Proudly supported by:
-        </Lead>
-  
-        <Image
-          alt="Github Logo"
-          src="/GitHub_Logo_White.png"
-          style={{margin: "auto", width: "20em"}}
-        />      
-  
-      </Box>
   </Base>
 )
