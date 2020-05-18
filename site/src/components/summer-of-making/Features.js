@@ -11,6 +11,7 @@ import {
   theme
 } from '@hackclub/design-system'
 import { Headline, Lead } from 'components/Content'
+import Hardware from 'components/summer-of-making/Hardware'
 
 const Base = styled(Box.section).attrs({ bg: 'dark', color: 'gray.3' })``
 
@@ -85,6 +86,8 @@ export default () => (
           <br />
           Want something else integrated into the program? Let us know.
         </Lead>
+  
+        <Hardware />
       </Box>
 
       <Module
@@ -92,26 +95,11 @@ export default () => (
         name="Mentorship"
         body="Every participant will be receiving their very own industry expert mentor to support them every step of the way. You'll have weekly digital meetings with your mentor."
       />
-      
-      <Module
-        icon="help"
-        name="Resources"
-        body="Need something to make your project possible? Let us know on your application and we'll do our best to get it for you. You can also ping us at any time to ask."
-      />
-      <Module
-        icon="web"
-        name="Marketing Assistance"
-        body="We'll promote your project through our channels as well as supporting you with your own marketing."
-      />
+     
       <Module
         icon="friend"
         name="Community"
-        body="Meet other passionate makers and make new friends with similar passions!"
-      />
-      <Module
-        icon="mention"
-        name="Priority Support"
-        body="Our dedicated team of amazing people will always be there to support you! We'll have a private channel on Slack for communication."
+        body="Meet other passionate makers and make new friends with similar passions! We'll also share your amazing projects with the wider community."
       />
       <Module
         icon="payment"
