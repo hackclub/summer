@@ -1,6 +1,6 @@
-<p align="center"><img height="200px" alt="Hack Club Summer of Making icon" src="https://raw.githubusercontent.com/hackclub/summer/master/assets/full-logo.svg"></a>
+<br>
 
-<h1 align="center"><a href="https://summer.hackclub.com/">Summer of Making 2020</a></h1>
+<p align="center"><img height="200px" alt="Hack Club Summer of Making icon" src="https://raw.githubusercontent.com/hackclub/summer/master/assets/full-logo.svg"></a>
 
 <p align="center"><i>This repo contains everything related to Summer of Making (a Hack Club Community Initative).</i></p>
 
