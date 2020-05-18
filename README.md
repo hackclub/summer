@@ -1,4 +1,4 @@
-<p align="center"><img width="200px" height="200px" alt="Hack Club icon" src="https://summer-7ust1iyit.now.sh/favicon.png"></a>
+<p align="center"><img width="200px" height="200px" alt="Hack Club icon" src="https://raw.githubusercontent.com/hackclub/summer/master/assets/full-logo.svg"></a>
 
 <h1 align="center"><a href="https://summer.hackclub.com/">Summer of Making 2020</a></h1>
 
