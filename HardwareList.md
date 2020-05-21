@@ -26,7 +26,7 @@ That's not all, Arduino has loads of boards that come in all shapes and sizes! [
 
 Unless you've got everything needed for a Raspberry Pi. We highly recommend to instead request a starter kit.
 
-### Electronic Kits
+### Electronic Kits
 
 ---
 
@@ -48,7 +48,7 @@ The list of places to find these sorts of things! Adafruit has some of the highe
 
 ---
 
-### Robotics Parts
+### Robotics Parts
 
 | Part Name | URL | Description |
 | --- | --- | --- |
@@ -56,7 +56,7 @@ The list of places to find these sorts of things! Adafruit has some of the highe
 | HC-SR04 Ultrasonic Distance Sensor | [Adafruit](https://www.adafruit.com/product/3942) | Simple distance sensor |
 | Round Robot Chassis | [Adafruit](https://www.adafruit.com/product/3216) | Foundation for a wheeled robot |
 
-## Tools
+### Tools
 
 ---
 
