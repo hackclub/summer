@@ -38,7 +38,7 @@ Unless you've got everything needed for a Raspberry Pi. We highly recommend to i
 | Raspberry Pi 4 (4GB Ram) Starter Kit | [Learn More](https://www.amazon.com/CanaKit-Raspberry-4GB-Starter-Kit/dp/B07V5JTMV9/ref=sr_1_3?dchild=1&keywords=raspberry+pi&qid=1589850416&sr=8-3) | Great for IoT projects, inculdes everything you need to get a Raspberry Pi going! |
 | Raspberry Pi Zero W Starter Kit | [Learn More](https://www.amazon.com/Vilros-Raspberry-Starter-Power-Premium/dp/B0748MPQT4/ref=sr_1_3?dchild=1&keywords=raspberry+pi+zero&qid=1589850878&sr=8-3) | Everything to get this mini version of the Raspberry Pi going!  |
 
-Note: All the above board **inculde** a board.
+Note: All the above kits **inculde** a board.
 
 ### Electronic Components & Arduino Accessories / Add-ons
 
