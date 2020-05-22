@@ -10,6 +10,7 @@ import Timeline from 'components/summer-of-making/Timeline'
 import Start from 'components/summer-of-making/Start'
 import FAQ from 'components/summer-of-making/FAQ'
 import Team from 'components/summer-of-making/Team'
+import Hardware from 'components/summer-of-making/Hardware'
 
 const styles = `
   body {

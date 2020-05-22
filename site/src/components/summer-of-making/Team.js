@@ -9,6 +9,7 @@ import {
   Link as A,
   Text,
   theme,
+  Image,
   Avatar
 } from '@hackclub/design-system'
 import { Headline, Lead } from 'components/Content'
@@ -27,11 +28,17 @@ const Modules = styled(Container)`
   }
 `
 Modules.defaultProps = {
-  px: 3,
-  mt: [4, null, 3],
-  mb: 3,
-  mx: 'auto',
+
+  px: 3, 
+  
+  mt: [4, null, 3], 
+  
+  mb: 3, 
+  
+  mx: 'auto', 
+  
   maxWidth: 72
+
 }
 
 const Module = ({ icon, name, body, ...props }) => (
@@ -50,6 +57,14 @@ const Module = ({ icon, name, body, ...props }) => (
         children={body}
       />
     </Box>
+  </Flex>
+)
+
+const SponsorModule = ({ url }) => (
+  <Flex align="start" px={3} mt={4, null, 3} mb = {3} mx="auto" maxWidth= {72}>
+    <Image
+      src={url}
+    />  
   </Flex>
 )
 
@@ -101,9 +116,40 @@ export default () => (
         name="Neel Redkar"
         body="neel@summer.hackclub.com"
       />
-      
-      
-      
+
     </Modules>
+
+    <br/>
+
+    <br/>
+
+    <Modules px={3}>
+
+    <Box align="center" style={{textAlign:"center", margin: "auto"}}>
+
+        <Lead fontSize={[3, 4]} color="muted" maxWidth={48} mx={0} style={{textAlign:"center", margin: "auto"}}>
+          Proudly supported by:
+        </Lead>
+    
+    </Box>
+
+    
+        
+
+      <SponsorModule
+        url="/adafruit_logo.png"
+      />
+
+      <SponsorModule
+        url="/GitHub_Logo_White.png"
+      />
+
+      <SponsorModule
+        url="/arduino_logo.png"
+      />
+  
+
+    </Modules>
+
   </Base>
 )
