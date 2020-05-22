@@ -114,21 +114,21 @@ export default () => (
         <Lead fontSize={[3, 4]} color="muted" maxWidth={48} mx={0} style={{textAlign:"center", margin: "auto"}}>
           Proudly supported by:
         </Lead>
-        <Flex align="start" {...props}>
+        <Flex align="start">
           <Image
             alt="Github Logo"
             src="/GitHub_Logo_White.png"
             style={{margin: "auto", width: "20em"}}
           />   
         </Flex>
-        <Flex align="start" {...props}>
+        <Flex align="start">
         <Image
           alt="Github Logo"
           src="/GitHub_Logo_White.png"
           style={{margin: "auto", width: "20em"}}
         />  
         </Flex>
-        <Flex align="start" {...props}>
+        <Flex align="start">
           <Image
             alt="Github Logo"
             src="/GitHub_Logo_White.png"
