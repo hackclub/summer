@@ -6,4 +6,4 @@
 
 <p align="center"><i>This repo contains everything related to Summer of Making (a Hack Club Community Initative).</i></p>
 
-<a href = "https://summer.hackclub.com"><p align="center">Learn more about the program here.</p></a>
+<a href = "https://summer.hackclub.com"><p align="center">Learn more & apply here.</p></a>

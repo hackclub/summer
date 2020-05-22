@@ -109,7 +109,7 @@ const Footer = ({ dark = false, children, ...props }) => (
     <Container px={3}>
       <Box fontSize={2} mt={[3, 4]}>
         <Text>
-          A Hack Club Sanctioned Project | Images sourced from Pexels
+          A Hack Club Sanctioned Project
         </Text>
       </Box>
       <BottomLine mt={3}>
