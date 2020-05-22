@@ -102,19 +102,19 @@ export default () => (
       <Module
         icon="https://ca.slack-edge.com/T0266FRGM-USNPNJXNX-77cff696fecc-512"
         name="Sam Poder"
-        body="sam@summer.hackclub.com"
+        body="@sampoder"
       />
       
       <Module
         icon="https://ca.slack-edge.com/T0266FRGM-UNGNM3H9A-d31a2d1b4dac-512"
         name="Roshan Palakkal"
-        body="roshan@summer.hackclub.com"
+        body="@roshan"
       />
       
       <Module
         icon="https://neelr.dev/static/self.jpg"
         name="Neel Redkar"
-        body="neel@summer.hackclub.com"
+        body="@neelr"
       />
 
     </Modules>
