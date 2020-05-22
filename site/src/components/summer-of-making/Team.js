@@ -29,6 +29,16 @@ const Modules = styled(Container)`
 `
 Modules.defaultProps = {
 
+  px: 3, 
+  
+  mt: [4, null, 3], 
+  
+  mb: 3, 
+  
+  mx: 'auto', 
+  
+  maxWidth: 72
+
 }
 
 const Module = ({ icon, name, body, ...props }) => (
