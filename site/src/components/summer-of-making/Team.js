@@ -28,11 +28,7 @@ const Modules = styled(Container)`
   }
 `
 Modules.defaultProps = {
-  px: 3,
-  mt: [4, null, 3],
-  mb: 3,
-  mx: 'auto',
-  maxWidth: 72
+
 }
 
 const Module = ({ icon, name, body, ...props }) => (
@@ -114,25 +110,22 @@ export default () => (
         <Lead fontSize={[3, 4]} color="muted" maxWidth={48} mx={0} style={{textAlign:"center", margin: "auto"}}>
           Proudly supported by:
         </Lead>
-        <Flex align="start">
+        <Flex align="start"  px: 3, mt: [4, null, 3], mb: 3, mx: 'auto', maxWidth: 72>
           <Image
             alt="Github Logo"
             src="/GitHub_Logo_White.png"
-            style={{margin: "auto", width: "20em"}}
           />   
         </Flex>
-        <Flex align="start">
+        <Flex align="start" px: 3, mt: [4, null, 3], mb: 3, mx: 'auto', maxWidth: 72>
         <Image
           alt="Github Logo"
           src="/GitHub_Logo_White.png"
-          style={{margin: "auto", width: "20em"}}
         />  
         </Flex>
-        <Flex align="start">
+        <Flex align="start"  px: 3, mt: [4, null, 3], mb: 3, mx: 'auto', maxWidth: 72>
           <Image
             alt="Github Logo"
             src="/GitHub_Logo_White.png"
-            style={{margin: "auto", width: "20em"}}
           />  
         </Flex>
       </Box>
