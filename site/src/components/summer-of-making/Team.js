@@ -50,6 +50,14 @@ const Module = ({ icon, name, body, ...props }) => (
   </Flex>
 )
 
+const SponsorModule = ({ url }) => (
+  <Flex align="start" {...props}>
+    <Image
+      src={url}
+    />  
+  </Flex>
+)
+
 const ModuleDetails = styled(Box).attrs({
   bg: '#252429',
   color: 'smoke',
@@ -98,36 +106,40 @@ export default () => (
         name="Neel Redkar"
         body="neel@summer.hackclub.com"
       />
-  
-      
-      
-      
-      
+
     </Modules>
-  <br/>
-  <br/>
-  <Box align="center" style={{textAlign:"center", margin: "auto"}}>
+
+    <br/>
+
+    <br/>
+
+    <Modules px={3}>
+
+    <Box align="center" style={{textAlign:"center", margin: "auto"}}>
+
         <Lead fontSize={[3, 4]} color="muted" maxWidth={48} mx={0} style={{textAlign:"center", margin: "auto"}}>
           Proudly supported by:
         </Lead>
-        <Flex align="start"  style={{px: 3, mt: [4, null, 3], mb: 3, mx: 'auto', maxWidth: 72}}>
-          <Image
-            alt="Github Logo"
-            src="/GitHub_Logo_White.png"
-          />   
-        </Flex>
-        <Flex align="start" style={{px: 3, mt: [4, null, 3], mb: 3, mx: 'auto', maxWidth: 72}}>
-        <Image
-          alt="Github Logo"
-          src="/GitHub_Logo_White.png"
-        />  
-        </Flex>
-        <Flex align="start"  style={{px: 3, mt: [4, null, 3], mb: 3, mx: 'auto', maxWidth: 72}}>
-          <Image
-            alt="Github Logo"
-            src="/GitHub_Logo_White.png"
-          />  
-        </Flex>
-      </Box>
+    
+    </Box>
+
+    
+        
+
+      <SponsorModule
+        url="/GitHub_Logo_White.png"
+      />
+
+      <SponsorModule
+        url="/GitHub_Logo_White.png"
+      />
+
+      <SponsorModule
+        url="/GitHub_Logo_White.png"
+      />
+  
+
+    </Modules>
+
   </Base>
 )
