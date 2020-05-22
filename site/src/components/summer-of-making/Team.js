@@ -61,7 +61,7 @@ const Module = ({ icon, name, body, ...props }) => (
 )
 
 const SponsorModule = ({ url }) => (
-  <Flex align="start" {...props}>
+  <Flex align="start" style={{px: 3, mt: [4, null, 3], mb: 3, mx: 'auto', maxWidth: 72}}>
     <Image
       src={url}
     />  
