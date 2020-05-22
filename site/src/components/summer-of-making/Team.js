@@ -7,7 +7,6 @@ import {
   Heading,
   Icon,
   Link as A,
-  Image,
   Text,
   theme,
   Image,
