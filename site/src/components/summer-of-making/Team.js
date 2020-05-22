@@ -137,7 +137,7 @@ export default () => (
         
 
       <SponsorModule
-        url="/GitHub_Logo_White.png"
+        url="https://learn.adafruit.com/logos/logo_2x.png"
       />
 
       <SponsorModule
@@ -145,7 +145,7 @@ export default () => (
       />
 
       <SponsorModule
-        url="/GitHub_Logo_White.png"
+        url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arduino_Logo.svg/1000px-Arduino_Logo.svg.png"
       />
   
 
