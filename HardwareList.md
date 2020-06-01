@@ -44,7 +44,7 @@ Note: All the above kits **inculde** a board.
 
 ---
 
-The list of places to find these sorts of things! Adafruit has some of the highest quality electronic components and a massive inventory of all sorts of things, you can check all of it [here](https://www.adafruit.com/categories). Arduino loads of things on their site: [Arduino Shields](https://store.arduino.cc/usa/arduino/shields), [Arduino Accessories](https://store.arduino.cc/usa/arduino/arduino-accessories) and a [third party libary](https://store.arduino.cc/usa/other-shields/new-arrivals). For more convential electronics check out [DigiKey](https://www.digikey.com/) (make sure your on your local site).
+The list of places to find these sorts of things! Adafruit has some of the highest quality electronic components and a massive inventory of all sorts of things, you can check all of it [here](https://www.adafruit.com/categories). Arduino loads of things on their site: [Arduino Shields](https://store.arduino.cc/usa/arduino/shields), [Arduino Accessories](https://store.arduino.cc/usa/arduino/arduino-accessories) and a [third party libary](https://store.arduino.cc/usa/other-shields/new-arrivals). For more convential electronics check out [DigiKey](https://www.digikey.com/) (make sure you're on your local site).
 
 ---
 
