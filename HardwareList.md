@@ -63,4 +63,3 @@ The list of places to find these sorts of things! Adafruit has some of the highe
 | Tool Name | URL | Description |
 | --- | --- | --- |
 | Weller 40-Watt Soldering Station | [Learn More](https://amazon.com/Weller-WLC100-40-Watt-Soldering-Station/dp/B000AS28UC) | Basic soldering iron |
-| Creality Ender 3 3D Printer | [Learn More](https://www.creality3dofficial.com/collections/ender-series/products/official-creality-ender-3-3d-printer) | Entry level 3D printer |
