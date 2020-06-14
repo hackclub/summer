@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/"
+  to = "https://summer.hackclub.com"
+  status = 301
+  force = false
