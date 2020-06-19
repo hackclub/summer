@@ -4,7 +4,7 @@
 
 <hr>
 
-<p align="center"><i>This repo contains everything related to Summer of Making (a Hack Club Community Initative).</i></p>
+<p align="center"><i>This repo contained everything related to Summer of Making (a Hack Club Community Initative).</i></p>
 
 <a href = "https://github.com/search?q=topic%3Asummer-of-making+org%3Ahackclub+fork%3Atrue"><p align="center">Every thing has moved, explore the new repos.</p></a>
 
